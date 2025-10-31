@@ -2,6 +2,7 @@ import { useState, useCallback, type ReactElement } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home, Box, ClipboardCheck, User, X, Search, TrendingUp } from 'lucide-react';
 import { useWallet } from '../contexts/WalletContext';
+import logo from '../assets/img/logo.png';
 
 interface NavItem {
   name: string;
@@ -88,7 +89,7 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
         <div className="flex flex-col h-full">
           {/* Logo and close button */}
           <div className="flex items-center justify-between p-4 border-b border-dark-border">
-            <img src="/src/assets/img/logo.png" width={120} className="mx-auto" />
+            <img src={logo} width={120} className="mx-auto" alt="Quorum Logo" />
             <button
               onClick={onClose}
               className="lg:hidden p-2 rounded-lg hover:bg-dark-elevated transition-colors"
