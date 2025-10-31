@@ -1,19 +1,7 @@
 import { useState } from 'react';
 import { useWallet } from '../contexts/WalletContext';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, TrendingUp, TrendingDown } from 'lucide-react';
-
-interface Allocation {
-  id: string;
-  name: string;
-  symbol: string;
-  amount: number;
-  percentage: number;
-  value: number;
-  change: number;
-  color: string;
-  size: 'large' | 'medium' | 'small';
-}
+import { X } from 'lucide-react';
 
 interface Scan {
   id: string;
