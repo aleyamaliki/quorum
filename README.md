@@ -2,6 +2,8 @@
 
 A modern, production-ready decentralized governance and liquidity pool management platform built with React, TypeScript, Tailwind CSS, and React Router.
 
+🚀 **[Live Demo](https://quorum-web3.netlify.app/)** (Replace with your actual Netlify URL)
+
 ## Features
 
 ### Wallet Integration
@@ -43,11 +45,13 @@ A modern, production-ready decentralized governance and liquidity pool managemen
 
 ## Tech Stack
 
-- **React 19**: Latest React with modern hooks
-- **TypeScript**: Full type safety
-- **Tailwind CSS 4**: Modern utility-first CSS
-- **React Router 7**: Client-side routing
-- **Vite**: Fast build tool and dev server
+- **React 19.1**: Latest React with modern hooks
+- **TypeScript 5.9**: Full type safety
+- **Tailwind CSS 3.4**: Modern utility-first CSS
+- **React Router 7.9**: Client-side routing
+- **Vite 7.1**: Fast build tool and dev server
+- **Framer Motion 12**: Smooth animations
+- **Lucide React**: Beautiful icon library
 
 ## Getting Started
 
